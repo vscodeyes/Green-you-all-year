@@ -20,5 +20,5 @@ jobs:
           git config --local user.name "vscodeyes"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "I just wanna any other guy"
+          git commit --allow-empty -m "傻逼腾讯你🐴死了"
           git push
